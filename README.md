@@ -1,12 +1,11 @@
 # Easy Virtual hosts
------
+
 This script is based on the great [RoverWire/virtualhost](https://github.com/RoverWire/virtualhost) (thank's) and modified to my necessities.
 
 This script allows you to create or delete nginx virtual hosts in a pretty easy way.
 
 The base is the Nginx version and to create virtual hosts to my Laravel projects, but work's in *any project* type, just point to the folder where is placed your index.php / index.html.
 
------
 
 ## Instalation
 1. Download the script
@@ -15,7 +14,6 @@ $ wget https://raw.githubusercontent.com/limatheus/virtualhost/master/virtualhos
 $ sudo chmod +x virtualhost
 $ sudo cp virtualhost /usr/local/bin/virtualhost
 ```
-----
 
 ## Usage
 You need to be root to run the script.
@@ -62,6 +60,6 @@ $ sudo virtualhost delete anothersite.dev my_dir
 
 ```
 
-### Credits
+## Credits
 Based on [RoverWire/virtualhost](https://github.com/RoverWire/virtualhost)
 

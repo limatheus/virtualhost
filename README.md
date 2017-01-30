@@ -26,24 +26,28 @@ $ sudo virtualhost [create | delete] [domain] [optional host_dir]
 
 ## Examples
 
-> To create a new virtual host:
+ - To create a new virtual host:
+
+
+##### Remember
+Point the directory with the index.php / index.html file. Ex: `mydir/` or `my_dir/public/` etc.
 
 ```bash
 $ sudo virtualhost create mysite.dev
 ```
 
-> To create a new virtual host with custom directory name:
+- To create a new virtual host with custom directory name:
 
 ```bash
 $ sudo virtualhost create anothersite.dev my_dir
 ```
-Or
+- To create a new virtual host in a existing directory :
 
 ```bash
-$ sudo virtualhost create anothersite.dev my_dir/public
+$ sudo virtualhost create anothersite.dev existing_dir
 ```
 
-> To delete a virtual host
+- To delete a virtual host
 
 The script asks you if want delete the root directory.
 
@@ -51,7 +55,7 @@ The script asks you if want delete the root directory.
 $ sudo virtualhost delete mysite.dev
 ```
 
-> To delete a virtual host with custom directory name:
+- To delete a virtual host with custom directory name:
 
 The script asks you if want delete the root directory.
 
